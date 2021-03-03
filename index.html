@@ -137,7 +137,7 @@
         if (screen_width < 500) {
 
             var new_height = screen_height;
-            var new_width = (new_height * screen_width) / 100;
+            var new_width = (new_height * 100) / screen_width;
 
             $('img, .box').css('height', new_width).css('height', new_height);
         }
