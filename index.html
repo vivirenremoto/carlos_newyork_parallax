@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>🌕 The Moon and Chrysler by Carlos Sánchez - Parallax Effect</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+
+    <meta property="og:image"
+        content="http://cdn.shopify.com/s/files/1/0466/4210/2430/products/chryslerx9_1200x1200.jpg?v=1609901138">
+    <meta property="og:image:secure_url"
+        content="https://cdn.shopify.com/s/files/1/0466/4210/2430/products/chocotuits-chrysler-d-72dpi-30x40_1200x1200.jpg?v=1609901084">
+
+    <meta property="og:image:type" content="image/jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Moon and Chrysler by Carlos Sánchez - Parallax Effect">
+    <meta name="twitter:image"
+        content="https://cdn.shopify.com/s/files/1/0466/4210/2430/products/chocotuits-chrysler-d-72dpi-30x40_1200x1200.jpg?v=1609901084">
+
+</head>
+
+<body>
+
+
+    <style>
+        body {
+            background: black;
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+            font-size: 20px;
+        }
+
+        .credits {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .author {
+            background: #fff url('https://cdn.shopify.com/s/files/1/0466/4210/2430/files/GIF-CARLOS_b9bc6e53-cc29-4264-b6f6-13ccb69198ea_480x480.gif?v=1611574957');
+            background-position-x: 0%;
+            background-position-y: 0%;
+            background-repeat: repeat;
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position: -20px center;
+            padding: 11px 11px 11px 80px;
+            background-size: auto 110px;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            border: 2px white solid;
+            border-radius: 7px;
+            color: black;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .box {
+            position: fixed;
+            width: 400px;
+            height: 749px;
+            left: 50%;
+            top: 50%;
+            margin-left: -200px;
+            margin-top: -354px;
+            overflow: hidden;
+            height: 700px;
+            background-image: linear-gradient(#7c5f64, #885d6e);
+        }
+
+        .correction {
+            margin-left: -40px;
+        }
+    </style>
+
+    <a href="https://twitter.com/vivirenremoto" target="_blank" class="credits">by @vivirenremoto</a>
+
+    <a href="https://www.uluprints.com/collections/carlos-sanchez/products/chrysler" target="_blank"
+        class="author"><b>The
+            Moon and Chrysler</b><br>by Carlos Sánchez</a>
+
+    <div class="box">
+        <div class="correction">
+            <div id="scene">
+
+                <div data-depth="0.9"><img src="static/back1.png" style="width:500px;height:749px;"></div>
+                <div data-depth="0.5"><img src="static/fore1.png" style="width:500px;height:749px;"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+
+</body>
+
+</html>
